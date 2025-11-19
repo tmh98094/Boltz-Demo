@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Scan, Wallet, Menu, Battery, Smartphone } from 'lucide-react';
+import { MapPin, Scan, Wallet, Menu, Battery } from 'lucide-react';
 
 export const AppShowcase: React.FC = () => {
   return (

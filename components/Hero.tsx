@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button } from './Button';
 import { StoreButtons } from './StoreButtons';
-import { BatteryCharging, MapPin, Smartphone, ShieldCheck, Star } from 'lucide-react';
+import { BatteryCharging, MapPin, ShieldCheck, Star } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
