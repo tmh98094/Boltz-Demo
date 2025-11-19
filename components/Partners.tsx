@@ -8,7 +8,7 @@ export const Partners: React.FC = () => {
     { name: "7-Eleven", icon: ShoppingBag },
     { name: "Starbucks", icon: Coffee },
     { name: "VivoCity", icon: Building2 },
-    { name: "Sentosa", icon: Map },
+    { name: "Sentosa", icon: SentosaMapIcon },
   ];
 
   return (
@@ -33,7 +33,7 @@ export const Partners: React.FC = () => {
 };
 
 // Helper for the Sentosa icon
-function Map(props: any) {
+function SentosaMapIcon(props: any) {
   return (
     <svg
       {...props}
